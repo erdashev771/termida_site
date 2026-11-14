@@ -1,0 +1,16 @@
+# Local secrets and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local reference screenshots; only the edited presentation assets are published.
+assets/screenshots/*-original.jpg
+*.zip
